@@ -1,0 +1,12 @@
+services:
+  swagger-ui:
+   image: swaggerapi/swagger-ui
+   container_name: contenedor-swagger
+   ports:
+      - "8080:8080"
+   volumes:
+      - ./docs:/usr/share/nginx/html/docs
+   environment:
+      # API_URL: docs/"nombre del fichero yaml que quieren abrir, ejemplo:"
+      # API_URL: docs/openapi.yaml
+      API_URL: docs/openapi.yaml
