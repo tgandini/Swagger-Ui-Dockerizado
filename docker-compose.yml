@@ -7,7 +7,7 @@ services:
    volumes:
       - ./docs:/usr/share/nginx/html/docs
    environment:
-      # API_URL: docs/{nombre del fichero yaml que quieren abrir}
-      #Por ejemplo:
-      # API_URL: docs/openapi.yaml
+      #     API_URL: docs/{nombre del fichero yaml que quieren abrir}
+      #     Por ejemplo:
+      #     API_URL: docs/openapi.yaml
       API_URL: docs/openapi.yaml
