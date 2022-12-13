@@ -10,4 +10,4 @@ services:
       #     API_URL: docs/{nombre del fichero yaml que quieren abrir}
       #     Por ejemplo:
       #     API_URL: docs/openapi.yaml
-      API_URL: docs/openapi.yaml
+      API_URL: docs/Api Reference Microframework/openapi.yaml
