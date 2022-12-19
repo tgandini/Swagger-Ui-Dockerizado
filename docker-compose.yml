@@ -10,5 +10,9 @@ services:
       #     API_URL: docs/{nombre del fichero yaml que quieren abrir}
       #     Por ejemplo:
       #     API_URL: docs/openapi.yaml
-      API_URL: docs/Api Reference Microframework/openapi.yaml
-      
+      # --------------- Descomentar el archivo de documentación ----------------
+      # --------------- para abrir por defecto ----------------
+
+      API_URL: docs/api_reference_microframework/openapi.yaml
+      # API_URL: docs/apis_claro_video_cv/claro_drive/openapi.yaml
+      # API_URL: docs/apis_claro_video_cv/claro_video/openapi.yaml
