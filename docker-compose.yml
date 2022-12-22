@@ -14,5 +14,5 @@ services:
       # --------------- para abrir por defecto ----------------
 
       API_URL: docs/api_reference_microframework/openapi.yaml
-      # API_URL: docs/apis_claro_video_cv/claro_drive/openapi.yaml
-      # API_URL: docs/apis_claro_video_cv/claro_video/openapi.yaml
+      # API_URL: docs/claro/claro_drive/openapi.yaml
+      # API_URL: docs/claro/claro_video/openapi.yaml
