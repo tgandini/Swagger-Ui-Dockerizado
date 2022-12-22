@@ -13,6 +13,5 @@ services:
       # --------------- Descomentar el archivo de documentación ----------------
       # --------------- para abrir por defecto ----------------
 
-      API_URL: docs/api_reference_microframework/openapi.yaml
-      # API_URL: docs/claro/claro_drive/openapi.yaml
-      # API_URL: docs/claro/claro_video/openapi.yaml
+      API_URL: docs/claro_video/openapi.yaml
+      # API_URL: docs/claro_drive/openapi.yaml
